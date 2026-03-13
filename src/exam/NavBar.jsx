@@ -10,10 +10,12 @@ function NavBar() {
   return (
     <div>
 
-      <Link to="/">Home</Link> 
-      <Link to="/teacherregistration">Teacher Registration</Link> 
-      <Link to="/viewteachers">View Teachers</Link>
-      <Link to="/apidemo">API Demo</Link>
+      <div style={{backgroundColor:"violet", padding:"10px"}}>
+        <Link to="/" style={{color:"white", marginRight:"15px"}}>Home</Link> 
+        <Link to="/teacherregistration" style={{color:"white", marginRight:"15px"}}>Teacher Registration</Link> 
+        <Link to="/viewteachers" style={{color:"white", marginRight:"15px"}}>View Teachers</Link>
+        <Link to="/apidemo" style={{color:"white"}}>API Demo</Link>
+      </div>
 
       <hr />
 
