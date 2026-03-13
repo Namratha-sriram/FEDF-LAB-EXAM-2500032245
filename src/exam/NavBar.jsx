@@ -10,9 +10,9 @@ function NavBar() {
   return (
     <div>
 
-      <Link to="/">Home</Link> |{" "}
-      <Link to="/teacherregistration">Teacher Registration</Link> |{" "}
-      <Link to="/viewteachers">View Teachers</Link> |{" "}
+      <Link to="/">Home</Link> 
+      <Link to="/teacherregistration">Teacher Registration</Link> 
+      <Link to="/viewteachers">View Teachers</Link>
       <Link to="/apidemo">API Demo</Link>
 
       <hr />
